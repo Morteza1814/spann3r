@@ -106,6 +106,29 @@ def pts3d_to_trimesh(img, pts3d, valid=None):
 
 model = load_model(DEFAULT_CKPT_PATH, DEFAULT_DEVICE)
 
+def shape_memory_hook(module, input, output):
+    torch.cuda.synchronize()  # Ensure memory stats are up to date
+    input_shapes = [inp.shape for inp in input]
+    output_shapes = [out.shape for out in output] if isinstance(output, (tuple, list)) else [output.shape]
+
+    for name, mod in model.named_modules():
+        if mod is module:
+            module_name = name
+            break
+    else:
+        module_name = "unknown"
+
+    with open("spann3r_profile.txt", "a") as f:
+        f.write(f"Layer: {module.__class__.__name__}, Module Path: {module_name}, "
+                f"Input: {input_shapes}, Output: {output_shapes} \n"
+                f"Allocated: {torch.cuda.memory_allocated() / 1e6:.2f} MB, "
+                f"Max Allocated: {torch.cuda.max_memory_allocated() / 1e6:.2f} MB\n\n")
+
+for layer in model.modules():
+    if isinstance(layer, (torch.nn.Linear, torch.nn.Conv2d, torch.nn.MultiheadAttention,
+                          torch.nn.LayerNorm, torch.nn.ReLU, torch.nn.Sigmoid)):
+        layer.register_forward_hook(shape_memory_hook) 
+
 @torch.no_grad()
 def reconstruct(video_path, conf_thresh, kf_every, as_pointcloud=False):
     # Extract frames from video
@@ -191,4 +214,4 @@ iface = gr.Interface(
 )
 
 if __name__ == "__main__":
-    iface.launch()
+    iface.launch(share=True)

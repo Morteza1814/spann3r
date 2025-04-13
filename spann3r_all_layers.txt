@@ -1,0 +1,1713 @@
+Layer: Conv2d, Module Path: dust3r.patch_embed.proj, Input: [torch.Size([2, 3, 224, 224])], Output: [torch.Size([2, 1024, 14, 14])] 
+Allocated: 2646.85 MB, Max Allocated: 2652.81 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.0.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2648.96 MB, Max Allocated: 2652.81 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.0.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.59 MB, Max Allocated: 2663.64 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.0.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.0.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.0.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.0.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.1.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.1.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.1.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.1.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.1.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.1.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.2.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.2.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.2.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.2.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.2.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.2.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.3.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.3.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.3.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.3.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.3.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.3.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.4.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.4.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.4.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.4.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.4.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.4.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.5.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.5.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.5.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.5.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.5.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.5.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.6.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.6.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.6.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.6.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.6.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.6.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.7.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.7.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.7.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.7.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.7.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.7.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.8.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.8.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.8.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.8.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.8.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.8.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.9.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.9.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.9.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.9.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.9.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.9.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.10.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.10.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.10.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.10.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.10.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.10.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.11.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.11.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.11.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.11.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.11.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.11.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.12.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.12.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.12.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.12.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.12.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.12.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.13.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.13.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.13.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.13.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.13.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.13.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.14.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.14.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.14.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.14.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.14.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.14.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.15.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.15.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.15.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.15.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.15.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.15.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.16.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.16.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.16.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.16.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.16.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.16.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.17.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.17.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.17.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.17.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.17.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.17.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.18.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.18.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.18.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.18.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.18.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.18.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.19.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.19.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.19.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.19.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.19.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.19.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.20.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.20.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.20.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.20.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.20.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.20.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.21.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.21.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.21.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.21.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.21.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.21.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.22.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.22.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.22.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.22.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.22.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.22.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.23.norm1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.23.attn.qkv, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 3072])] 
+Allocated: 2662.85 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.23.attn.proj, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2671.70 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_blocks.23.norm2, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2659.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.23.mlp.fc1, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 4096])] 
+Allocated: 2666.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.enc_blocks.23.mlp.fc2, Input: [torch.Size([2, 196, 4096])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2668.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.enc_norm, Input: [torch.Size([2, 196, 1024])], Output: [torch.Size([2, 196, 1024])] 
+Allocated: 2658.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.decoder_embed, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2655.23 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.decoder_embed, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2655.83 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.0.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2656.44 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.0.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2658.27 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.0.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2661.57 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.0.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2657.04 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.0.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2657.64 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.0.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2658.24 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.0.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2658.84 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.0.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2659.45 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.0.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2662.75 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.0.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2657.64 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.0.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2660.05 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.0.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2660.65 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.0.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2657.04 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.0.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2658.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.0.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2662.17 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.0.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2657.64 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.0.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2658.24 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.0.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2658.84 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.0.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2659.45 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.0.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2660.05 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.0.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2663.35 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.0.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2658.24 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.0.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2660.65 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.0.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2661.25 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.1.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2657.64 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.1.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2659.48 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.1.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2662.78 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.1.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2658.24 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.1.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2658.84 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.1.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2659.45 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.1.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2660.05 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.1.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2660.65 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.1.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2663.95 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.1.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2658.84 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.1.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2661.25 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.1.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2661.86 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.1.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2658.24 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.1.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2660.08 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.1.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2663.38 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.1.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2658.84 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.1.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2659.45 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.1.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2660.05 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.1.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2660.65 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.1.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2661.25 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.1.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2664.55 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.1.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2659.45 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.1.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2661.86 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.1.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2662.46 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.2.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2658.84 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.2.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2660.68 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.2.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2663.98 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.2.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2659.45 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.2.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2660.05 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.2.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2660.65 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.2.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2661.25 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.2.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2661.86 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.2.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2665.16 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.2.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2660.05 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.2.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2662.46 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.2.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2663.06 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.2.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2659.45 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.2.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2661.28 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.2.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2664.58 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.2.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2660.05 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.2.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2660.65 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.2.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2661.25 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.2.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2661.86 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.2.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2662.46 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.2.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2665.76 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.2.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2660.65 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.2.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2663.06 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.2.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2663.66 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.3.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2660.05 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.3.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2661.88 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.3.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2665.19 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.3.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2660.65 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.3.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2661.25 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.3.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2661.86 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.3.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2662.46 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.3.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2663.06 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.3.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2666.36 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.3.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2661.25 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.3.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2663.66 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.3.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2664.26 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.3.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2660.65 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.3.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2662.49 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.3.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2665.79 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.3.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2661.25 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.3.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2661.86 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.3.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2662.46 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.3.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2663.06 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.3.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2663.66 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.3.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2666.96 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.3.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2661.86 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.3.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2664.26 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.3.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2664.87 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.4.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2661.25 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.4.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2663.09 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.4.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2666.39 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.4.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2661.86 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.4.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2662.46 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.4.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2663.06 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.4.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2663.66 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.4.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2664.26 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.4.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2667.57 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.4.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2662.46 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.4.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2664.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.4.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2665.47 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.4.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2661.86 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.4.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2663.69 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.4.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2666.99 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.4.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2662.46 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.4.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2663.06 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.4.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2663.66 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.4.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2664.26 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.4.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2664.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.4.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2668.17 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.4.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2663.06 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.4.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2665.47 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.4.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2666.07 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.5.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2662.46 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.5.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2664.29 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.5.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2667.59 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.5.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2663.06 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.5.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2663.66 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.5.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2664.26 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.5.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2664.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.5.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2665.47 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.5.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2668.77 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.5.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2663.66 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.5.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2666.07 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.5.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2666.67 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.5.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2663.06 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.5.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2664.89 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.5.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2668.20 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.5.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2663.66 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.5.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2664.26 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.5.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2664.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.5.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2665.47 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.5.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2666.07 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.5.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2669.37 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.5.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2664.26 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.5.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2666.67 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.5.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2667.27 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.6.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2663.66 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.6.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2665.50 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.6.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2668.80 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.6.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2664.26 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.6.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2664.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.6.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2665.47 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.6.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2666.07 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.6.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2666.67 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.6.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2669.97 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.6.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2664.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.6.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2667.27 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.6.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2667.88 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.6.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2664.26 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.6.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2666.10 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.6.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2669.40 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.6.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2664.87 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.6.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2665.47 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.6.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2666.07 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.6.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2666.67 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.6.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2667.27 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.6.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2670.58 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.6.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2665.47 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.6.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2667.88 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.6.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2668.48 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.7.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2664.87 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.7.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2666.70 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.7.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2670.00 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.7.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2665.47 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.7.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2666.07 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.7.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2666.67 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.7.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2667.27 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.7.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2667.88 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.7.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2671.18 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.7.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2666.07 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.7.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2668.48 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.7.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2669.08 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.7.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2665.47 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.7.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2667.30 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.7.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2670.60 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.7.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2666.07 MB, Max Allocated: 2672.75 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.7.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2666.67 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.7.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2667.27 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.7.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2667.88 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.7.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2668.48 MB, Max Allocated: 2672.75 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.7.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2671.78 MB, Max Allocated: 2672.83 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.7.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2666.67 MB, Max Allocated: 2672.83 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.7.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2669.08 MB, Max Allocated: 2672.83 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.7.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2669.68 MB, Max Allocated: 2672.83 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.8.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2666.07 MB, Max Allocated: 2672.83 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.8.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2667.91 MB, Max Allocated: 2672.83 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.8.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2671.21 MB, Max Allocated: 2672.83 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.8.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2666.67 MB, Max Allocated: 2672.83 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.8.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2667.27 MB, Max Allocated: 2672.83 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.8.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2667.88 MB, Max Allocated: 2672.83 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.8.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2668.48 MB, Max Allocated: 2672.83 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.8.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2669.08 MB, Max Allocated: 2672.83 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.8.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2672.38 MB, Max Allocated: 2673.43 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.8.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2667.27 MB, Max Allocated: 2673.43 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.8.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2669.68 MB, Max Allocated: 2673.43 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.8.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2670.28 MB, Max Allocated: 2673.43 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.8.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2666.67 MB, Max Allocated: 2673.43 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.8.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2668.51 MB, Max Allocated: 2673.43 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.8.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2671.81 MB, Max Allocated: 2673.43 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.8.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2667.27 MB, Max Allocated: 2673.43 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.8.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2667.88 MB, Max Allocated: 2673.43 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.8.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2668.48 MB, Max Allocated: 2673.43 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.8.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2669.08 MB, Max Allocated: 2673.43 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.8.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2669.68 MB, Max Allocated: 2673.43 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.8.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2672.98 MB, Max Allocated: 2674.03 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.8.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2667.88 MB, Max Allocated: 2674.03 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.8.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2670.28 MB, Max Allocated: 2674.03 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.8.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2670.89 MB, Max Allocated: 2674.03 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.9.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2667.27 MB, Max Allocated: 2674.03 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.9.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2669.11 MB, Max Allocated: 2674.03 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.9.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2672.41 MB, Max Allocated: 2674.03 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.9.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2667.88 MB, Max Allocated: 2674.03 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.9.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2668.48 MB, Max Allocated: 2674.03 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.9.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2669.08 MB, Max Allocated: 2674.03 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.9.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2669.68 MB, Max Allocated: 2674.03 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.9.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2670.28 MB, Max Allocated: 2674.03 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.9.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2673.59 MB, Max Allocated: 2674.63 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.9.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2668.48 MB, Max Allocated: 2674.63 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.9.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2670.89 MB, Max Allocated: 2674.63 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.9.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2671.49 MB, Max Allocated: 2674.63 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.9.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2667.88 MB, Max Allocated: 2674.63 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.9.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2669.71 MB, Max Allocated: 2674.63 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.9.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2673.01 MB, Max Allocated: 2674.63 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.9.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2668.48 MB, Max Allocated: 2674.63 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.9.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2669.08 MB, Max Allocated: 2674.63 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.9.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2669.68 MB, Max Allocated: 2674.63 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.9.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2670.28 MB, Max Allocated: 2674.63 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.9.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2670.89 MB, Max Allocated: 2674.63 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.9.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2674.19 MB, Max Allocated: 2675.24 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.9.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2669.08 MB, Max Allocated: 2675.24 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.9.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2671.49 MB, Max Allocated: 2675.24 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.9.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2672.09 MB, Max Allocated: 2675.24 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.10.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2668.48 MB, Max Allocated: 2675.24 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.10.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2670.31 MB, Max Allocated: 2675.24 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.10.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2673.61 MB, Max Allocated: 2675.24 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.10.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2669.08 MB, Max Allocated: 2675.24 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.10.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2669.68 MB, Max Allocated: 2675.24 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.10.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2670.28 MB, Max Allocated: 2675.24 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.10.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2670.89 MB, Max Allocated: 2675.24 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.10.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2671.49 MB, Max Allocated: 2675.24 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.10.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2674.79 MB, Max Allocated: 2675.84 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.10.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2669.68 MB, Max Allocated: 2675.84 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.10.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2672.09 MB, Max Allocated: 2675.84 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.10.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2672.69 MB, Max Allocated: 2675.84 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.10.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2669.08 MB, Max Allocated: 2675.84 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.10.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2670.92 MB, Max Allocated: 2675.84 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.10.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2674.22 MB, Max Allocated: 2675.84 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.10.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2669.68 MB, Max Allocated: 2675.84 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.10.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2670.28 MB, Max Allocated: 2675.84 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.10.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2670.89 MB, Max Allocated: 2675.84 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.10.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2671.49 MB, Max Allocated: 2675.84 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.10.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2672.09 MB, Max Allocated: 2675.84 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.10.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2675.39 MB, Max Allocated: 2676.44 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.10.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2670.28 MB, Max Allocated: 2676.44 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.10.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2672.69 MB, Max Allocated: 2676.44 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.10.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2673.30 MB, Max Allocated: 2676.44 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.11.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2669.68 MB, Max Allocated: 2676.44 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.11.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2671.52 MB, Max Allocated: 2676.44 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.11.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2674.82 MB, Max Allocated: 2676.44 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.11.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2670.28 MB, Max Allocated: 2676.44 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.11.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2670.89 MB, Max Allocated: 2676.44 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.11.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2671.49 MB, Max Allocated: 2676.44 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.11.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2672.09 MB, Max Allocated: 2676.44 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.11.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2672.69 MB, Max Allocated: 2676.44 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.11.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2675.99 MB, Max Allocated: 2677.04 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks.11.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2670.89 MB, Max Allocated: 2677.04 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.11.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2673.30 MB, Max Allocated: 2677.04 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks.11.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2673.90 MB, Max Allocated: 2677.04 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.11.norm1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2670.28 MB, Max Allocated: 2677.04 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.11.attn.qkv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 2304])] 
+Allocated: 2672.12 MB, Max Allocated: 2677.04 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.11.attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2675.42 MB, Max Allocated: 2677.04 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.11.norm_y, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2670.89 MB, Max Allocated: 2677.04 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.11.norm2, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2671.49 MB, Max Allocated: 2677.04 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.11.cross_attn.projq, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2672.09 MB, Max Allocated: 2677.04 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.11.cross_attn.projk, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2672.69 MB, Max Allocated: 2677.04 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.11.cross_attn.projv, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2673.30 MB, Max Allocated: 2677.04 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.11.cross_attn.proj, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2676.60 MB, Max Allocated: 2677.65 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_blocks2.11.norm3, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2671.49 MB, Max Allocated: 2677.65 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.11.mlp.fc1, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2673.90 MB, Max Allocated: 2677.65 MB
+
+Layer: Linear, Module Path: dust3r.dec_blocks2.11.mlp.fc2, Input: [torch.Size([1, 196, 3072])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2674.50 MB, Max Allocated: 2677.65 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_norm, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2669.68 MB, Max Allocated: 2677.65 MB
+
+Layer: LayerNorm, Module Path: dust3r.dec_norm, Input: [torch.Size([1, 196, 768])], Output: [torch.Size([1, 196, 768])] 
+Allocated: 2670.28 MB, Max Allocated: 2677.65 MB
+
+Layer: Linear, Module Path: attn_head_1.0, Input: [torch.Size([1, 196, 1792])], Output: [torch.Size([1, 196, 1792])] 
+Allocated: 2673.01 MB, Max Allocated: 2677.65 MB
+
+Layer: Linear, Module Path: attn_head_1.2, Input: [torch.Size([1, 196, 1792])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2673.82 MB, Max Allocated: 2677.65 MB
+
+Layer: Linear, Module Path: attn_head_2.0, Input: [torch.Size([1, 196, 1792])], Output: [torch.Size([1, 196, 1792])] 
+Allocated: 2673.82 MB, Max Allocated: 2677.65 MB
+
+Layer: Linear, Module Path: attn_head_2.2, Input: [torch.Size([1, 196, 1792])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2674.62 MB, Max Allocated: 2677.65 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.act_postprocess.0.0, Input: [torch.Size([1, 1024, 14, 14])], Output: [torch.Size([1, 96, 14, 14])] 
+Allocated: 2673.37 MB, Max Allocated: 2678.19 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.act_postprocess.1.0, Input: [torch.Size([1, 768, 14, 14])], Output: [torch.Size([1, 192, 14, 14])] 
+Allocated: 2674.76 MB, Max Allocated: 2679.57 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.act_postprocess.2.0, Input: [torch.Size([1, 768, 14, 14])], Output: [torch.Size([1, 384, 14, 14])] 
+Allocated: 2675.51 MB, Max Allocated: 2809.73 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.act_postprocess.3.0, Input: [torch.Size([1, 768, 14, 14])], Output: [torch.Size([1, 768, 14, 14])] 
+Allocated: 2676.11 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.act_postprocess.3.1, Input: [torch.Size([1, 768, 14, 14])], Output: [torch.Size([1, 768, 7, 7])] 
+Allocated: 2676.26 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.scratch.layer1_rn, Input: [torch.Size([1, 96, 56, 56])], Output: [torch.Size([1, 256, 56, 56])] 
+Allocated: 2676.26 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.scratch.layer2_rn, Input: [torch.Size([1, 192, 28, 28])], Output: [torch.Size([1, 256, 28, 28])] 
+Allocated: 2677.06 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.scratch.layer3_rn, Input: [torch.Size([1, 384, 14, 14])], Output: [torch.Size([1, 256, 14, 14])] 
+Allocated: 2677.27 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.scratch.layer4_rn, Input: [torch.Size([1, 768, 7, 7])], Output: [torch.Size([1, 256, 7, 7])] 
+Allocated: 2677.32 MB, Max Allocated: 2810.33 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet4.resConfUnit1.activation, Input: [torch.Size([1, 256, 7, 7])], Output: [torch.Size([1, 256, 7, 7])] 
+Allocated: 2675.00 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet4.resConfUnit2.conv1, Input: [torch.Size([1, 256, 7, 7])], Output: [torch.Size([1, 256, 7, 7])] 
+Allocated: 2675.05 MB, Max Allocated: 2810.33 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet4.resConfUnit1.activation, Input: [torch.Size([1, 256, 7, 7])], Output: [torch.Size([1, 256, 7, 7])] 
+Allocated: 2675.05 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet4.resConfUnit2.conv2, Input: [torch.Size([1, 256, 7, 7])], Output: [torch.Size([1, 256, 7, 7])] 
+Allocated: 2675.05 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet4.out_conv, Input: [torch.Size([1, 256, 14, 14])], Output: [torch.Size([1, 256, 14, 14])] 
+Allocated: 2675.35 MB, Max Allocated: 2810.33 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet3.resConfUnit1.activation, Input: [torch.Size([1, 256, 14, 14])], Output: [torch.Size([1, 256, 14, 14])] 
+Allocated: 2675.35 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet3.resConfUnit1.conv1, Input: [torch.Size([1, 256, 14, 14])], Output: [torch.Size([1, 256, 14, 14])] 
+Allocated: 2675.55 MB, Max Allocated: 2810.33 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet3.resConfUnit1.activation, Input: [torch.Size([1, 256, 14, 14])], Output: [torch.Size([1, 256, 14, 14])] 
+Allocated: 2675.55 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet3.resConfUnit1.conv2, Input: [torch.Size([1, 256, 14, 14])], Output: [torch.Size([1, 256, 14, 14])] 
+Allocated: 2675.55 MB, Max Allocated: 2810.33 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet3.resConfUnit1.activation, Input: [torch.Size([1, 256, 14, 14])], Output: [torch.Size([1, 256, 14, 14])] 
+Allocated: 2675.75 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet3.resConfUnit2.conv1, Input: [torch.Size([1, 256, 14, 14])], Output: [torch.Size([1, 256, 14, 14])] 
+Allocated: 2675.95 MB, Max Allocated: 2810.33 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet3.resConfUnit1.activation, Input: [torch.Size([1, 256, 14, 14])], Output: [torch.Size([1, 256, 14, 14])] 
+Allocated: 2675.95 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet3.resConfUnit2.conv2, Input: [torch.Size([1, 256, 14, 14])], Output: [torch.Size([1, 256, 14, 14])] 
+Allocated: 2675.95 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet3.out_conv, Input: [torch.Size([1, 256, 28, 28])], Output: [torch.Size([1, 256, 28, 28])] 
+Allocated: 2676.96 MB, Max Allocated: 2810.33 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet2.resConfUnit1.activation, Input: [torch.Size([1, 256, 28, 28])], Output: [torch.Size([1, 256, 28, 28])] 
+Allocated: 2676.76 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet2.resConfUnit1.conv1, Input: [torch.Size([1, 256, 28, 28])], Output: [torch.Size([1, 256, 28, 28])] 
+Allocated: 2677.56 MB, Max Allocated: 2810.33 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet2.resConfUnit1.activation, Input: [torch.Size([1, 256, 28, 28])], Output: [torch.Size([1, 256, 28, 28])] 
+Allocated: 2677.56 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet2.resConfUnit1.conv2, Input: [torch.Size([1, 256, 28, 28])], Output: [torch.Size([1, 256, 28, 28])] 
+Allocated: 2677.56 MB, Max Allocated: 2810.33 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet2.resConfUnit1.activation, Input: [torch.Size([1, 256, 28, 28])], Output: [torch.Size([1, 256, 28, 28])] 
+Allocated: 2678.36 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet2.resConfUnit2.conv1, Input: [torch.Size([1, 256, 28, 28])], Output: [torch.Size([1, 256, 28, 28])] 
+Allocated: 2679.17 MB, Max Allocated: 2810.33 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet2.resConfUnit1.activation, Input: [torch.Size([1, 256, 28, 28])], Output: [torch.Size([1, 256, 28, 28])] 
+Allocated: 2679.17 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet2.resConfUnit2.conv2, Input: [torch.Size([1, 256, 28, 28])], Output: [torch.Size([1, 256, 28, 28])] 
+Allocated: 2679.17 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet2.out_conv, Input: [torch.Size([1, 256, 56, 56])], Output: [torch.Size([1, 256, 56, 56])] 
+Allocated: 2683.18 MB, Max Allocated: 2810.33 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet1.resConfUnit1.activation, Input: [torch.Size([1, 256, 56, 56])], Output: [torch.Size([1, 256, 56, 56])] 
+Allocated: 2682.38 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet1.resConfUnit1.conv1, Input: [torch.Size([1, 256, 56, 56])], Output: [torch.Size([1, 256, 56, 56])] 
+Allocated: 2685.59 MB, Max Allocated: 2810.33 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet1.resConfUnit1.activation, Input: [torch.Size([1, 256, 56, 56])], Output: [torch.Size([1, 256, 56, 56])] 
+Allocated: 2685.59 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet1.resConfUnit1.conv2, Input: [torch.Size([1, 256, 56, 56])], Output: [torch.Size([1, 256, 56, 56])] 
+Allocated: 2685.59 MB, Max Allocated: 2810.33 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet1.resConfUnit1.activation, Input: [torch.Size([1, 256, 56, 56])], Output: [torch.Size([1, 256, 56, 56])] 
+Allocated: 2688.80 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet1.resConfUnit2.conv1, Input: [torch.Size([1, 256, 56, 56])], Output: [torch.Size([1, 256, 56, 56])] 
+Allocated: 2692.01 MB, Max Allocated: 2810.33 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet1.resConfUnit1.activation, Input: [torch.Size([1, 256, 56, 56])], Output: [torch.Size([1, 256, 56, 56])] 
+Allocated: 2692.01 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet1.resConfUnit2.conv2, Input: [torch.Size([1, 256, 56, 56])], Output: [torch.Size([1, 256, 56, 56])] 
+Allocated: 2692.01 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.scratch.refinenet1.out_conv, Input: [torch.Size([1, 256, 112, 112])], Output: [torch.Size([1, 256, 112, 112])] 
+Allocated: 2708.07 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.head.0, Input: [torch.Size([1, 256, 112, 112])], Output: [torch.Size([1, 128, 112, 112])] 
+Allocated: 2698.43 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.head.2, Input: [torch.Size([1, 128, 224, 224])], Output: [torch.Size([1, 128, 224, 224])] 
+Allocated: 2743.39 MB, Max Allocated: 2810.33 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head1.dpt.head.3, Input: [torch.Size([1, 128, 224, 224])], Output: [torch.Size([1, 128, 224, 224])] 
+Allocated: 2717.70 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head1.dpt.head.4, Input: [torch.Size([1, 128, 224, 224])], Output: [torch.Size([1, 4, 224, 224])] 
+Allocated: 2718.50 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.act_postprocess.0.0, Input: [torch.Size([1, 1024, 14, 14])], Output: [torch.Size([1, 96, 14, 14])] 
+Allocated: 2674.17 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.act_postprocess.1.0, Input: [torch.Size([1, 768, 14, 14])], Output: [torch.Size([1, 192, 14, 14])] 
+Allocated: 2675.56 MB, Max Allocated: 2810.33 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.act_postprocess.2.0, Input: [torch.Size([1, 768, 14, 14])], Output: [torch.Size([1, 384, 14, 14])] 
+Allocated: 2676.31 MB, Max Allocated: 2810.53 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.act_postprocess.3.0, Input: [torch.Size([1, 768, 14, 14])], Output: [torch.Size([1, 768, 14, 14])] 
+Allocated: 2676.91 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.act_postprocess.3.1, Input: [torch.Size([1, 768, 14, 14])], Output: [torch.Size([1, 768, 7, 7])] 
+Allocated: 2677.06 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.scratch.layer1_rn, Input: [torch.Size([1, 96, 56, 56])], Output: [torch.Size([1, 256, 56, 56])] 
+Allocated: 2677.06 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.scratch.layer2_rn, Input: [torch.Size([1, 192, 28, 28])], Output: [torch.Size([1, 256, 28, 28])] 
+Allocated: 2677.87 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.scratch.layer3_rn, Input: [torch.Size([1, 384, 14, 14])], Output: [torch.Size([1, 256, 14, 14])] 
+Allocated: 2678.07 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.scratch.layer4_rn, Input: [torch.Size([1, 768, 7, 7])], Output: [torch.Size([1, 256, 7, 7])] 
+Allocated: 2678.12 MB, Max Allocated: 2811.13 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet4.resConfUnit1.activation, Input: [torch.Size([1, 256, 7, 7])], Output: [torch.Size([1, 256, 7, 7])] 
+Allocated: 2675.80 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet4.resConfUnit2.conv1, Input: [torch.Size([1, 256, 7, 7])], Output: [torch.Size([1, 256, 7, 7])] 
+Allocated: 2675.85 MB, Max Allocated: 2811.13 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet4.resConfUnit1.activation, Input: [torch.Size([1, 256, 7, 7])], Output: [torch.Size([1, 256, 7, 7])] 
+Allocated: 2675.85 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet4.resConfUnit2.conv2, Input: [torch.Size([1, 256, 7, 7])], Output: [torch.Size([1, 256, 7, 7])] 
+Allocated: 2675.85 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet4.out_conv, Input: [torch.Size([1, 256, 14, 14])], Output: [torch.Size([1, 256, 14, 14])] 
+Allocated: 2676.16 MB, Max Allocated: 2811.13 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet3.resConfUnit1.activation, Input: [torch.Size([1, 256, 14, 14])], Output: [torch.Size([1, 256, 14, 14])] 
+Allocated: 2676.16 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet3.resConfUnit1.conv1, Input: [torch.Size([1, 256, 14, 14])], Output: [torch.Size([1, 256, 14, 14])] 
+Allocated: 2676.36 MB, Max Allocated: 2811.13 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet3.resConfUnit1.activation, Input: [torch.Size([1, 256, 14, 14])], Output: [torch.Size([1, 256, 14, 14])] 
+Allocated: 2676.36 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet3.resConfUnit1.conv2, Input: [torch.Size([1, 256, 14, 14])], Output: [torch.Size([1, 256, 14, 14])] 
+Allocated: 2676.36 MB, Max Allocated: 2811.13 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet3.resConfUnit1.activation, Input: [torch.Size([1, 256, 14, 14])], Output: [torch.Size([1, 256, 14, 14])] 
+Allocated: 2676.56 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet3.resConfUnit2.conv1, Input: [torch.Size([1, 256, 14, 14])], Output: [torch.Size([1, 256, 14, 14])] 
+Allocated: 2676.76 MB, Max Allocated: 2811.13 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet3.resConfUnit1.activation, Input: [torch.Size([1, 256, 14, 14])], Output: [torch.Size([1, 256, 14, 14])] 
+Allocated: 2676.76 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet3.resConfUnit2.conv2, Input: [torch.Size([1, 256, 14, 14])], Output: [torch.Size([1, 256, 14, 14])] 
+Allocated: 2676.76 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet3.out_conv, Input: [torch.Size([1, 256, 28, 28])], Output: [torch.Size([1, 256, 28, 28])] 
+Allocated: 2677.76 MB, Max Allocated: 2811.13 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet2.resConfUnit1.activation, Input: [torch.Size([1, 256, 28, 28])], Output: [torch.Size([1, 256, 28, 28])] 
+Allocated: 2677.56 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet2.resConfUnit1.conv1, Input: [torch.Size([1, 256, 28, 28])], Output: [torch.Size([1, 256, 28, 28])] 
+Allocated: 2678.36 MB, Max Allocated: 2811.13 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet2.resConfUnit1.activation, Input: [torch.Size([1, 256, 28, 28])], Output: [torch.Size([1, 256, 28, 28])] 
+Allocated: 2678.36 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet2.resConfUnit1.conv2, Input: [torch.Size([1, 256, 28, 28])], Output: [torch.Size([1, 256, 28, 28])] 
+Allocated: 2678.36 MB, Max Allocated: 2811.13 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet2.resConfUnit1.activation, Input: [torch.Size([1, 256, 28, 28])], Output: [torch.Size([1, 256, 28, 28])] 
+Allocated: 2679.17 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet2.resConfUnit2.conv1, Input: [torch.Size([1, 256, 28, 28])], Output: [torch.Size([1, 256, 28, 28])] 
+Allocated: 2679.97 MB, Max Allocated: 2811.13 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet2.resConfUnit1.activation, Input: [torch.Size([1, 256, 28, 28])], Output: [torch.Size([1, 256, 28, 28])] 
+Allocated: 2679.97 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet2.resConfUnit2.conv2, Input: [torch.Size([1, 256, 28, 28])], Output: [torch.Size([1, 256, 28, 28])] 
+Allocated: 2679.97 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet2.out_conv, Input: [torch.Size([1, 256, 56, 56])], Output: [torch.Size([1, 256, 56, 56])] 
+Allocated: 2683.98 MB, Max Allocated: 2811.13 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet1.resConfUnit1.activation, Input: [torch.Size([1, 256, 56, 56])], Output: [torch.Size([1, 256, 56, 56])] 
+Allocated: 2683.18 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet1.resConfUnit1.conv1, Input: [torch.Size([1, 256, 56, 56])], Output: [torch.Size([1, 256, 56, 56])] 
+Allocated: 2686.39 MB, Max Allocated: 2811.13 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet1.resConfUnit1.activation, Input: [torch.Size([1, 256, 56, 56])], Output: [torch.Size([1, 256, 56, 56])] 
+Allocated: 2686.39 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet1.resConfUnit1.conv2, Input: [torch.Size([1, 256, 56, 56])], Output: [torch.Size([1, 256, 56, 56])] 
+Allocated: 2686.39 MB, Max Allocated: 2811.13 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet1.resConfUnit1.activation, Input: [torch.Size([1, 256, 56, 56])], Output: [torch.Size([1, 256, 56, 56])] 
+Allocated: 2689.60 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet1.resConfUnit2.conv1, Input: [torch.Size([1, 256, 56, 56])], Output: [torch.Size([1, 256, 56, 56])] 
+Allocated: 2692.81 MB, Max Allocated: 2811.13 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet1.resConfUnit1.activation, Input: [torch.Size([1, 256, 56, 56])], Output: [torch.Size([1, 256, 56, 56])] 
+Allocated: 2692.81 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet1.resConfUnit2.conv2, Input: [torch.Size([1, 256, 56, 56])], Output: [torch.Size([1, 256, 56, 56])] 
+Allocated: 2692.81 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.scratch.refinenet1.out_conv, Input: [torch.Size([1, 256, 112, 112])], Output: [torch.Size([1, 256, 112, 112])] 
+Allocated: 2708.87 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.head.0, Input: [torch.Size([1, 256, 112, 112])], Output: [torch.Size([1, 128, 112, 112])] 
+Allocated: 2699.24 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.head.2, Input: [torch.Size([1, 128, 224, 224])], Output: [torch.Size([1, 128, 224, 224])] 
+Allocated: 2744.19 MB, Max Allocated: 2811.13 MB
+
+Layer: ReLU, Module Path: dust3r.downstream_head2.dpt.head.3, Input: [torch.Size([1, 128, 224, 224])], Output: [torch.Size([1, 128, 224, 224])] 
+Allocated: 2718.50 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: dust3r.downstream_head2.dpt.head.4, Input: [torch.Size([1, 128, 224, 224])], Output: [torch.Size([1, 4, 224, 224])] 
+Allocated: 2719.31 MB, Max Allocated: 2811.13 MB
+
+Layer: Conv2d, Module Path: pos_patch_embed.proj, Input: [torch.Size([1, 3, 224, 224])], Output: [torch.Size([1, 1024, 14, 14])] 
+Allocated: 2673.09 MB, Max Allocated: 2811.13 MB
+
+Layer: LayerNorm, Module Path: value_encoder.0.norm1, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2673.90 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.0.attn.qkv, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2676.31 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.0.attn.proj, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2680.38 MB, Max Allocated: 2811.13 MB
+
+Layer: LayerNorm, Module Path: value_encoder.0.norm2, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2674.71 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.0.mlp.fc1, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 4096])] 
+Allocated: 2677.92 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.0.mlp.fc2, Input: [torch.Size([1, 196, 4096])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2678.72 MB, Max Allocated: 2811.13 MB
+
+Layer: LayerNorm, Module Path: value_encoder.1.norm1, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2674.71 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.1.attn.qkv, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2677.12 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.1.attn.proj, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2681.18 MB, Max Allocated: 2811.13 MB
+
+Layer: LayerNorm, Module Path: value_encoder.1.norm2, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2675.51 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.1.mlp.fc1, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 4096])] 
+Allocated: 2678.72 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.1.mlp.fc2, Input: [torch.Size([1, 196, 4096])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2679.52 MB, Max Allocated: 2811.13 MB
+
+Layer: LayerNorm, Module Path: value_encoder.2.norm1, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2674.71 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.2.attn.qkv, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2677.12 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.2.attn.proj, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2681.18 MB, Max Allocated: 2811.13 MB
+
+Layer: LayerNorm, Module Path: value_encoder.2.norm2, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2675.51 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.2.mlp.fc1, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 4096])] 
+Allocated: 2678.72 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.2.mlp.fc2, Input: [torch.Size([1, 196, 4096])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2679.52 MB, Max Allocated: 2811.13 MB
+
+Layer: LayerNorm, Module Path: value_encoder.3.norm1, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2674.71 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.3.attn.qkv, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2677.12 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.3.attn.proj, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2681.18 MB, Max Allocated: 2811.13 MB
+
+Layer: LayerNorm, Module Path: value_encoder.3.norm2, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2675.51 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.3.mlp.fc1, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 4096])] 
+Allocated: 2678.72 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.3.mlp.fc2, Input: [torch.Size([1, 196, 4096])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2679.52 MB, Max Allocated: 2811.13 MB
+
+Layer: LayerNorm, Module Path: value_encoder.4.norm1, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2674.71 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.4.attn.qkv, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2677.12 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.4.attn.proj, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2681.18 MB, Max Allocated: 2811.13 MB
+
+Layer: LayerNorm, Module Path: value_encoder.4.norm2, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2675.51 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.4.mlp.fc1, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 4096])] 
+Allocated: 2678.72 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.4.mlp.fc2, Input: [torch.Size([1, 196, 4096])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2679.52 MB, Max Allocated: 2811.13 MB
+
+Layer: LayerNorm, Module Path: value_encoder.5.norm1, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2674.71 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.5.attn.qkv, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 3072])] 
+Allocated: 2677.12 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.5.attn.proj, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2681.18 MB, Max Allocated: 2811.13 MB
+
+Layer: LayerNorm, Module Path: value_encoder.5.norm2, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2675.51 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.5.mlp.fc1, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 4096])] 
+Allocated: 2678.72 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_encoder.5.mlp.fc2, Input: [torch.Size([1, 196, 4096])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2679.52 MB, Max Allocated: 2811.13 MB
+
+Layer: LayerNorm, Module Path: value_norm, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2674.71 MB, Max Allocated: 2811.13 MB
+
+Layer: Linear, Module Path: value_out, Input: [torch.Size([1, 196, 1024])], Output: [torch.Size([1, 196, 1024])] 
+Allocated: 2674.71 MB, Max Allocated: 2811.13 MB
+
